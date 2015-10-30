@@ -1,0 +1,48 @@
+<Environment>
+  <Robot file="messenger_robot.xml"></Robot>
+  <Kinbody name="obstacle1">
+    <Body type="static">
+      <Geom type="box">
+	<extents>0.005 0.005 0.03</extents>
+	<Translation>-0.04 0.01 0.0</Translation>
+	<diffusecolor>1.00 0.2745 0.1608</diffusecolor>
+      </Geom>
+    </Body>
+  </Kinbody>
+  <Kinbody name="obstacle2">
+    <Body type="static">
+      <Geom type="box">
+	<extents>0.005 0.005 0.03</extents>
+	<Translation>-0.03 -0.01 0.0</Translation>
+	<diffusecolor>1.00 0.2745 0.1608</diffusecolor>
+      </Geom>
+    </Body>
+  </Kinbody>
+  <Kinbody name="obstacle3">
+    <Body type="static">
+      <Geom type="box">
+  	<extents>0.02 0.05 0.002</extents>
+  	<Translation>0.04 -0.00 -0.030</Translation>
+  	<diffusecolor>1.00 0.2745 0.1608</diffusecolor>
+      </Geom>
+    </Body>
+  </Kinbody>
+  <Kinbody name="obstacle4">
+    <Body type="static">
+      <Geom type="box">
+	<extents>0.005 0.005 0.03</extents>
+	<Translation>0.04 -0.01 0.0</Translation>
+	<diffusecolor>1.00 0.2745 0.1608</diffusecolor>
+      </Geom>
+    </Body>
+  </Kinbody>
+  <Kinbody name="obstacle5">
+    <Body type="static">
+      <Geom type="box">
+	<extents>0.005 0.005 0.03</extents>
+	<Translation>0.03 0.01 0.0</Translation>
+	<diffusecolor>1.00 0.2745 0.1608</diffusecolor>
+      </Geom>
+    </Body>
+  </Kinbody>
+</Environment>
