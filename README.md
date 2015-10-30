@@ -1,18 +1,22 @@
 TOPP FOR RIGID-BODY MOTIONS
 ------------
 
-We implemented Time-Optimal Path Parameterization (TOPP) for rigid-body trajectories subject to angular velocities, accelerations and torques bounds.
+This library includes tools to plan fast trajectories on the the space of rotation matrices SO(3) and the space of three-dimensional rigid body motions SE(3) under kinodynamic constraints (bounds on angular velocities, accelerations and torques) in a cluttered environment.
 
 For further details, please see more at our paper <<link to paper>>
 
 Requirements
 ------------
 
--As this implementation is an extention of TOPP (time-optimal Path Parameterization), read instructions in following link to install TOPP, OpenRAVE and prerequisites:
+- As this implementation is an extention of TOPP (time-optimal Path Parameterization), read instructions in following link to install TOPP, OpenRAVE and prerequisites:
 https://github.com/quangounet/TOPP
 
--Clone this TOPP-SO3 folder and it's ready to use!
+- Clone this TOPP-SO3 folder and it's ready to use!
 
 Examples
 ------------
 Please try the test files in the folder (test-SO3.py and test-SE3.py)
+
+Below is the video demonstrating the resulting trajectories found by our algorithm.
+
+https://youtu.be/heM7uxGrfVc
