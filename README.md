@@ -11,11 +11,14 @@ Requirements
 - As this implementation is an extention of TOPP (time-optimal Path Parameterization), read instructions in following link to install TOPP, OpenRAVE and prerequisites:
 https://github.com/quangounet/TOPP
 
-- Clone this TOPP-SO3 folder and it's ready to use!
+- Clone this TOPP-SO3 folder
+
+$ sudo python setup.py install
+
 
 Examples
 ------------
-Please try the test files in the folder (test-SO3.py and test-SE3.py)
+Please try the test files in the examples folder (test-SO3.py and test-SE3.py)
 
 Below is the video demonstrating the resulting trajectories found by our algorithm.
 
