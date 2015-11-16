@@ -13,7 +13,7 @@ https://github.com/quangounet/TOPP
 
 - Clone this TOPP-SO3 folder, then go to that repository and run
 
-   sudo python setup.py install
+   $ sudo python setup.py install
 
 
 Examples
