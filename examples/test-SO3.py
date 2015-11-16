@@ -1,9 +1,9 @@
 from openravepy import *
 from numpy import *
 
-from SO3RRT import *
-import Utils
-import lie
+from toppso3.SO3RRT import *
+from toppso3 import Utils
+from toppso3 import lie
 
 import time
 import TOPP
@@ -21,7 +21,7 @@ ion()
 
 env = Environment()
 # This model was downloaded from http://nasa3d.arc.nasa.gov/models/printable
-env.Load("MESSENGER/messengerWithEnv.xml")
+env.Load("../MESSENGER/messengerWithEnv.xml")
 env.SetViewer('qtcoin')
 
 robot = env.GetBodies()[0]
